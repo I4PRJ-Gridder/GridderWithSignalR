@@ -3,9 +3,9 @@
 var connection = new signalR.HubConnectionBuilder().withUrl("/gridhub").build();
 
 connection.on("drawPixel",
-    function (x, y, colour) {
+    function (x, y, color) {
         console.log("drawpixel siger hej");
-        gitter.setPixel(x, y, colour);
+        gitter.setPixel(x, y, color);
     });
 
 connection.start().catch(function (err) {
