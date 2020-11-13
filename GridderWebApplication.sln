@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitterPrototype", "GitterPrototype\GitterPrototype.csproj", "{A60F6DDA-5315-4CFD-A1D5-C3E4D80E364F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gitter", "Gitter\Gitter.csproj", "{84CAD1EC-C675-4687-988F-4681D513DC07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60F6DDA-5315-4CFD-A1D5-C3E4D80E364F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60F6DDA-5315-4CFD-A1D5-C3E4D80E364F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60F6DDA-5315-4CFD-A1D5-C3E4D80E364F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60F6DDA-5315-4CFD-A1D5-C3E4D80E364F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CAD1EC-C675-4687-988F-4681D513DC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CAD1EC-C675-4687-988F-4681D513DC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CAD1EC-C675-4687-988F-4681D513DC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CAD1EC-C675-4687-988F-4681D513DC07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A9497DD-369E-4D2B-922D-DA6699290645}
+	EndGlobalSection
+EndGlobal
